@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    background-color: beige;
+
+}
+/*centralizar o site*/
+.container{
+ width:80%;
+ margin: auto;
+}
+
+header{
+    background-color: rgb(184, 124, 124);
+    color: rgb(43, 34, 34);
+    text-align: center;
+    padding: 10px;
+}
+
+
+.conteudo{  
+    display: flex; /*ativa o flexbox*/
+}
+
+nav{
+    width: 30%;
+    background-color:rgb(88, 57, 57);
+    padding: 15px;
+    color: bisque;
+}
+
+main{
+    display: flex;
+    width: 70%;
+    background-color: rgb(154, 122, 122);
+    padding: 15px;
+    color: bisque ;
+
+
+
+}
+
+footer{
+    background-color:rgb(184, 124, 124);
+    text-align: center;
+    padding: 15px;
+    color:bisque ;
+
+}
+
+section{
+    background-color: rgb(151, 180, 206);
+    padding: 10px;
+    width: 80%;
+    text-align: justify;
+}
+
+aside{
+    background-color: rgb(8, 37, 65);
+    padding: 20px;
+    width:20%;
+    margin-left: 20px;
+}
